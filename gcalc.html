@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="gcalc.css">
+</head>
+<body>
+    <header>
+        <h1>Grade Calculator</h1>
+        <p>Use this calculator to determine your final grade based on your scores and your respective mark.</p>
+    </header>
+    <h2>Enter Your Scores</h2>
+    <form id="gradeForm">
+        <div class="subjectbox">
+            <label for="score1">Subject 1:</label>
+            <input type="number" id="score1" placeholder="Score" required>
+            <br><br>
+        </div>
+        <div class="subjectbox">
+            <label for="score2">Subject 2:</label>
+            <input type="number" id="score2" placeholder="Score" required>
+            <br><br>
+        </div>
+        <div class="subjectbox">
+            <label for="score3">Subject 3:</label>
+            <input type="number" id="score3" placeholder="Score" required>
+            <br><br>
+        </div>
+        <div class="subjectbox">
+            <label for="score4">Subject 4:</label>
+            <input type="number" id="score4" placeholder="Score" required>
+            <br><br>
+        </div>
+        
+        <button type="submit">Calculate</button>
+    </form>
+
+    <div id="result">
+        <h2>Result</h2>
+        <p id="resultscore1">Subject 1: </p>
+        <p id="resultscore2">Subject 2: </p>
+        <p id="resultscore3">Subject 3: </p>
+        <p id="resultscore4">Subject 4: </p>
+        <br>
+        <p id="finalGrade">Here is your final grade.</p>
+        <p id="resultAverage">Average: </p>
+        <p id="resultMark">Mark: </p>
+    </div>
+
+    <script src="gcalc.js"></script>
+
+</body>
+</html>
