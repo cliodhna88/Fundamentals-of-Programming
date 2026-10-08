@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  //ADDITION PROGRAM
+  cout<<"Addition Program"<<endl;
+  int a = 6;
+  int b = 10;
+    
+  int sum = a+b;
+  cout<<"The Sum of A and B is: "<<endl;
+  cout<<sum<<endl;
+
+  cout<<endl;
